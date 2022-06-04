@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{71c4689c-f8d3-47b0-a042-a2216008b37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Trucks">
+      <UniqueIdentifier>{686e43b0-b706-4592-b554-1b863c0d73eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Structure">
+      <UniqueIdentifier>{27a41af8-8a20-4e93-934e-bc1a9da93b66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Company.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cargos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CancellationEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadyEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PromotionEvent.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialTruck.cpp">
+      <Filter>Source Files\Trucks</Filter>
+    </ClCompile>
+    <ClCompile Include="Truck.cpp">
+      <Filter>Source Files\Trucks</Filter>
+    </ClCompile>
+    <ClCompile Include="VIPTruck.cpp">
+      <Filter>Source Files\Trucks</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalTruck.cpp">
+      <Filter>Source Files\Trucks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeEnum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadyEvent.h">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="PromotionEvent.h">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="CancellationEvent.h">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="VIPTruck.h">
+      <Filter>Source Files\Trucks</Filter>
+    </ClInclude>
+    <ClInclude Include="Truck.h">
+      <Filter>Source Files\Trucks</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialTruck.h">
+      <Filter>Source Files\Trucks</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalTruck.h">
+      <Filter>Source Files\Trucks</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="priorityQueue.h">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="maxHeap.h">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="QNode.h">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedList.h">
+      <Filter>Source Files\Data Structure</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
